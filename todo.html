@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoリスト</title>
+    <link rel="stylesheet" href="./todo.css">
+</head>
+<body>
+    <!-- <button id="toggle-dark">🌙 ダークモード切替</button>
+    <div class="dark-mode-toggle">
+        <label class = "switch">
+            <input type="checkbox" id="toggle-dark">
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-label">🌙 ダークモード</span> -->
+    <!-- </div> -->
+<div class="container">
+    <div class="dark-mode-toggle">
+        <label class = "switch">
+            <input type="checkbox" id="toggle-dark">
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-label">🌙 ダークモード</span>
+    </div>
+    <h1>シンプルToDoリスト</h1>
+    <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="新しいタスクをタスクを入力" required>
+        <button type="submit">追加</button>
+    </form>
+
+    <input type="text" id="search-box" placeholder="キーワードで検索">
+
+    <div class="filter-buttons">
+        <button id="filter-all">すべて</button>
+        <button id="filter-active">未完了</button>
+        <button id="filter-completed">完了</button>
+    </div>
+
+<ul id="todo-list"></ul>
+</div>
+<script src="./todo.js"></script>
+
+</body>
+</html>
