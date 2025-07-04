@@ -48,13 +48,13 @@ button {
     border: none;
     border-radius: 6px;
     cursor: painter;
-    transition: backgrond-coor 0.3s;
+
 }
 button:hover {
     background-color: #0056b3;
 }
 #search-box {
-    width: 100%;
+
     padding: 10px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -95,14 +95,18 @@ button:hover {
     color: #aaa;
 }
 
-.complete-btn,
+.complete-btn {
+    background-color: #28a745;
+
+}
+
 .delete-btn {
     margin-left: 8px;
-    background-color: #343a40;
+    background-color: #f00505;
 }
 .complete-btn:hover,
 .delete-btn:hover {
-    background-color: #212529;
+    background-color: #0b0e10;
 }
 
 
